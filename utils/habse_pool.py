@@ -6,8 +6,9 @@
 # @Software: PyCharm
 
 
-
 import happybase
+
+
 def make_synchronized(func):
     import threading
     func.__lock__ = threading.Lock()
@@ -35,9 +36,7 @@ class RecsysHBaseCls(Singleton):
     def __init__(self):
         if self.__class__.__first_init:
             return
-
         self.pool = happybase.ConnectionPool(host="127.0.0.1", autoconnect=False, size=3)
-
         self.__class__.__first_init = True
 
     def get_pool(self):
