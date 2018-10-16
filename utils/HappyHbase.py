@@ -3,7 +3,14 @@
 
 import happybase
 
+"""
+pip install happybase
 
+hbase-daemon.sh start thrift
+or 
+nohup hbase thrift start &
+
+"""
 class HappyHbase(object):
     """
      :param str name:table name
