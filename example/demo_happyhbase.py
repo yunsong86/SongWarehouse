@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 18-10-16 下午7:20
 # @Author  : YunSong
-# @File    : demp_happyhbase.py
+# @File    : demo_happyhbase.py
 # @Software: PyCharm
 
 import time
@@ -19,8 +19,11 @@ date = {
 
 }
 
-table_name = 'test_2'
-hap.create(table_name, date)
+table_name = 'test_3'
+try:
+    hap.create(table_name, date)
+except:
+    pass
 
 date2 = {
     "property:pcGraphic": "123",
@@ -30,8 +33,8 @@ date2 = {
 }
 
 for j in range(50):
-    hap.put(table_name, "rowkey1", date2)
-    time.sleep(2)
+    hap.put(table_name, "rowkey%s" % str(j), date2)
+    # time.sleep(2)
 
 res = hap.families(table_name)
 print(res)
@@ -40,7 +43,7 @@ print(hap.get_row(table_name=table_name, row_key="rowkey1"))
 print(hap.get_rows(table_name=table_name, row_key_list=["rowkey1", "rowkey2"]))
 #
 #
-print(hap.get_column(table_name=table_name, row_key="rowkey1", columns=["info"]))
+print(hap.get_column(table_name=table_name, row_key="rowkey1", columns=["click_behavior"]))
 
 i = 0
 for item in hap.get_cell(table_name=table_name, row_key='rowkey1', column="property:pcGraphic"):
@@ -56,3 +59,11 @@ for r in hap.scan_table(table_name):
 
 res = hap.families(table_name)
 print(res)
+
+res = hap.scan_table(table_name=table_name, row_start=b"row", row_stop=b"rk___194 ")
+for r in res:
+    print(r)
+
+res = hap.scan_table(table_name=table_name, row_prefix=b"row")
+for r in res:
+    print(r)
