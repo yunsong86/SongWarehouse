@@ -11,6 +11,8 @@ or
 nohup hbase thrift start &
 
 """
+
+
 class HappyHbase(object):
     """
      :param str name:table name
@@ -81,8 +83,8 @@ class HappyHbase(object):
         """
         return self._table(table_name).row(row_key, columns)
 
-    def scan_table(self, table_name=None):
-        res = self.conn.table(table_name).scan()
+    def scan_table(self, table_name=None, row_start=None, row_stop=None, row_prefix=None):
+        res = self.conn.table(table_name).scan(row_start=row_start, row_stop=row_stop, row_prefix=row_prefix)
         return res
 
     def close(self):
