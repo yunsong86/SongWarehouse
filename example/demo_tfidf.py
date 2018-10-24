@@ -16,7 +16,6 @@ corpus = ["我 来到  北京 清华大学",
           "  科学院 ",
           ]
 
-#  ============================训练tfidf模型============================  #
 print("\n============================训练tfidf模型 ============================")
 
 tfidfVectorizer = TfidfVectorizer()
@@ -28,7 +27,6 @@ for i in range(len(weight)):  # 打印每类文本的tf-idf词语权重，第一
     for j in range(len(word)):
         print(word[j], weight[i][j])
 
-#  ============================保存tfidf模型============================  #
 print("============================保存tfidf模型 ============================")
 
 import pickle
@@ -39,9 +37,7 @@ with open('tfidf.model', 'wb') as file:
 with open('tfidf.model', 'rb') as file:
     tfidfVectorizer = pickle.load(file)
 
-#  ============================tfidf 模型预测 ============================  #
 print("\n============================tfidf 模型预测 ============================")
-print('\n\n============================')
 print("我 来到 北京 清华大学 运送")
 
 tfidf_vec = tfidfVectorizer.transform(["我 来到 北京 清华大学", "我  北京 清华大学"])
