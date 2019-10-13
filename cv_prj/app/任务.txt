@@ -1,0 +1,6 @@
+OCR
+表格识别
+图像检索:
+	sift
+	cnn
+	faster-cnn
