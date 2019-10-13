@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 
 import happybase
