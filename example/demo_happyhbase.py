@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 18-10-16 下午7:20
 # @Author  : YunSong

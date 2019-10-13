@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 """
 # @Time     : 2018/10/23 22:25
