@@ -43,7 +43,7 @@ signature_def['serving_default']:
 
 import tensorflow as tf
 
-saved_model_dir = "/home/panyunsong/textcnn/experiments/text_CNN_exp/models/1"
+saved_model_dir = ""
 
 input_arrays = ["text_input"]
 output_arrays = ["output/predictions"]
