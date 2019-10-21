@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/9 11:20
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : data_helper.py
 import re
 import jieba

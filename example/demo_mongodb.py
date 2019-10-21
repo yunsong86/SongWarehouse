@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 18-11-5 下午3:33
-# @Author  : YunSong
+# @Author  : song
 # @File    : demo_mongodb.py
 # @Software: PyCharm
 import pymongo

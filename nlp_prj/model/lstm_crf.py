@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/9/28 14:57
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : lstm_crf.py
 
 import tensorflow as tf

@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/8 20:28
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : app.py
 import tensorflow as tf
 from model.text_cnn import TextCnn

@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/9/23 15:05
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : n_gram.py
 import kenlm
 

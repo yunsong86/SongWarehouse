@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 # @Time     : 2018/10/24 22:02
-# @Author   : YunSong
+# @Author   : song
 # @File     : nlp_sim.py
 # @Software : PyCharm
 # @version  : python3

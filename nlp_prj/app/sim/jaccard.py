@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 # @Time     : 2018/10/24 21:53
-# @Author   : YunSong
+# @Author   : song
 # @File     : jaccard.py
 # @Software : PyCharm
 # @version  : python3

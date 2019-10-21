@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/9/29 10:40
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : app_lstm_crf_tf.py
 
 import os

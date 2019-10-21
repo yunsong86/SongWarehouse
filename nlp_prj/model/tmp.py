@@ -1,13 +1,13 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/9 14:47
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : freeze_graph.py
 
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/8 20:27
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : text_cnn.py
 
 import tensorflow as tf

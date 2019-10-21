@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 19-9-23 下午9:15
-# @Author  : YunSong
+# @Author  : song
 # @File    : model_base.py
 # @Software: PyCharm
 

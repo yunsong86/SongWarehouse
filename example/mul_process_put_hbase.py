@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 18-10-16 下午7:16
-# @Author  : YunSong
+# @Author  : song
 # @File    : mul_process_put_hbase.py
 # @Software: PyCharm
 # @verson  : python3

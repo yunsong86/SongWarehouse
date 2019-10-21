@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 19-9-23 下午9:30
-# @Author  : YunSong
+# @Author  : song
 # @File    : lstm_crf_keras.py
 # @Software: PyCharm
 
