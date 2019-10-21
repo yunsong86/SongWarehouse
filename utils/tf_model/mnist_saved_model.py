@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/11 17:57
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : mnist_saved_model.py
 
 # Copyright 2016 Google Inc. All Rights Reserved.

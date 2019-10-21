@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/12 10:07
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : freeze_graph.py
 
 import tensorflow as tf

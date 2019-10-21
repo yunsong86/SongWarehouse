@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/15 19:21
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : doc_to_docx.py
 
 import os

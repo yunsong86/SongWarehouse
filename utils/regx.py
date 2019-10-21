@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 18-10-15 上午11:43
-# @Author  : YunSong
+# @Author  : song
 # @File    : regx.py
 # @Software: PyCharm
 import re
