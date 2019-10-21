@@ -1,7 +1,7 @@
 #!/usr/bin/env py_kp
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/12 20:12
-# @Author  : PanYunSong
+# @Author  : song
 # @File    : from_saved_model_to_tflite.py
 
 
@@ -10,7 +10,7 @@ saved_model_cli show --dir ./savemodel --all
 
 
 
-tflite_convert   --output_file=foo.tflite   --saved_model_dir=/home/panyunsong/test_savemodel/savemodel  --saved_model_tag_set='saved_model_tag_set' --input_shapes=1 --input_arrays=x
+tflite_convert   --output_file=foo.tflite   --saved_model_dir=/home/song/test_savemodel/savemodel  --saved_model_tag_set='saved_model_tag_set' --input_shapes=1 --input_arrays=x
 
 MetaGraphDef with tag-set: 'train' contains the following SignatureDefs:
 
