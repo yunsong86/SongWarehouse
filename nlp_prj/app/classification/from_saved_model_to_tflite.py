@@ -6,6 +6,10 @@
 
 
 """
+saved_model_cli show --dir ./savemodel --all
+
+
+
 tflite_convert   --output_file=foo.tflite   --saved_model_dir=/home/panyunsong/test_savemodel/savemodel  --saved_model_tag_set='saved_model_tag_set' --input_shapes=1 --input_arrays=x
 
 MetaGraphDef with tag-set: 'train' contains the following SignatureDefs:
